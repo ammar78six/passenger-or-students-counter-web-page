@@ -1,0 +1,80 @@
+body {
+  background-image: url("./images/school.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 120px;
+}
+h2 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+  }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button1 button{
+    width: 181px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: red;
+}
+.button1 button:hover{
+    background-color: rgb(159, 11, 11);
+    cursor: pointer;
+}
+.button2 button{
+    width: 181px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: red;
+    margin-top: 20px;
+}
+.button2 button:hover{
+    background-color: rgb(159, 11, 11);
+    cursor: pointer;
+}
+.button3 button{
+  width: 181px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 25px;
+  background-color:green;
+  margin-top: 20px;
+}
+.button3 button:hover{
+  background-color: rgb(0, 255, 0);
+  cursor: pointer;
+}
+.save p{
+  color: white;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 420px) and (min-width: 0px) {
+  h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 75px;
+}
+}
+@media only screen and (max-width: 280px) and (min-width: 0px) {
+  h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+}
