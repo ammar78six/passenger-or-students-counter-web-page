@@ -1,0 +1,182 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.logo {
+  width: 30%;
+}
+.logo img {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.navitem {
+  width: 70%;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  font-size: revert-layer;
+}
+.headerli {
+  padding-top: 30px;
+}
+
+.headerli li {
+  display: inline;
+  text-decoration-color: black;
+  float: left;
+  margin: 3px 3px;
+}
+.headerli a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+}
+.chead {
+  background-color: lightgreen;
+  padding-top: 3px;
+}
+.h2header {
+  font-size: 55px;
+  font-family: serif;
+  margin-left: 90px;
+}
+.f1section img {
+  width: 900px;
+  height: 450px;
+  margin-left: 220px;
+}
+.f1section {
+  background-color: rgb(224, 227, 231);
+  padding-bottom: 30px;
+}
+.liins1 li {
+  display: inline;
+  margin-right: 70px;
+}
+.liins1 ul {
+  margin-left: 219px;
+}
+.liins1 {
+  margin-top: 20px;
+}
+.forparagraph {
+  width: 40%;
+  background-color: rgb(224, 227, 231);
+  margin-left: 220px;
+  margin-top: 30px;
+  line-height: 2;
+  padding-bottom: 35px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-right-color: green;
+  border-bottom-color: green;
+}
+.forparagraph h4 {
+  font-size: 30px;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.forparagraph p {
+  line-height: 1.6;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.blogli p {
+  background-color: lightgreen;
+  font-size: 25px;
+  display: inline;
+}
+.blogli i {
+  background-color: red;
+}
+.blogc {
+  width: 30%;
+  margin-top: 25px;
+}
+.section2 {
+  display: flex;
+  margin-bottom: 60px;
+}
+.blogc ul {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.blochead p {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.social img {
+  width: 25px;
+  margin-left: 20px;
+}
+#comment {
+  width: 500px;
+  height: 300px;
+  margin-left: 20px;
+}
+#name {
+  margin-left: 20px;
+  width: 500px;
+  height: 30px;
+}
+#email {
+  width: 500px;
+  margin-left: 20px;
+  height: 30px;
+}
+#website {
+  width: 500px;
+  margin-left: 20px;
+  height: 30px;
+}
+.postcommentbtn button {
+  background-color: green;
+  margin-left: 15px;
+  width: 130px;
+  height: 40px;
+  margin-top: 25px;
+}
+#notify1 {
+  margin-left: 15px;
+}
+#notify2 {
+  margin-left: 15px;
+}
+#ppbs {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.blurbimage {
+  width: 30%;
+}
+.blurbtext {
+  width: 70%;
+  
+}
+.blurb1 {
+  display: flex;
+}
+.blurbimage img {
+  width: 90px;
+  height: 80px;
+}
+.blurbsection {
+  display: flex;
+  padding-left: 20px;
+}
+.blurbtext li {
+  display: inline;
+}
+.blurbtext ul {
+  width: 230px;
+}
+.hrline {
+  margin-left: 18px;
+  margin-right: 90px;
+}

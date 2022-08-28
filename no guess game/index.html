@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <style>
+        h3{
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>Lets Guess The Number</h2>
+    <p>The Number is between 1 to 100.Lets see how may chances you take</p>
+    <input type="number" placeholder="Type the guess no.." id="myInput" />
+    <button type="button" onclick="getInputValue();">EnterGuess Value</button>
+    <h3 id="one">Try Again ,The Number is Greater</h3>
+    <h3 id="two">Try Again ,The Number is Smaller</h3>
+    <h3 id="three">Congrats ,Its the Number!!!!!</h3>
+
+    <script>
+      const thenumber = 55;
+      function getInputValue() {
+        // Selecting the input element and get its value
+        let iv = document.getElementById("myInput").value;
+        // Displaying the value
+        console.log(iv);
+        if (iv < thenumber) {
+          alert("Try Again ,The Number is Greater");
+        } else if (iv > thenumber) {
+          alert("Try Again ,The Number is Smaller");
+        } else {
+          alert("Congrats ,Its the Number!!!!!");
+          console.log(typeof iv)
+        }
+      }
+    </script>
+  </body>
+</html>
